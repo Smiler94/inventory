@@ -1,0 +1,2138 @@
+[ 2016-05-11T20:12:14+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.281422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019336s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.550071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.550371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013315s ]
+
+[ 2016-05-11T20:13:30+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.402614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.402914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003049s ]
+
+[ 2016-05-11T20:14:15+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2016-05-11T20:19:34+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2016-05-11T20:19:35+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2016-05-11T20:19:57+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.312300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.312537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2016-05-11T20:20:34+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2016-05-11T20:21:27+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2016-05-11T20:21:44+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2016-05-11T20:23:32+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.040478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2016-05-11T20:23:51+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001263s ]
+
+[ 2016-05-11T20:24:02+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2016-05-11T20:24:22+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-05-11T20:27:23+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2016-05-11T20:27:46+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002390s ]
+
+[ 2016-05-11T20:28:44+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-05-11T20:29:02+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2016-05-11T20:29:13+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001718s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2016-05-11T20:30:34+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001917s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001235s ]
+
+[ 2016-05-11T20:30:46+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001469s ]
+
+[ 2016-05-11T20:33:26+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002269s ]
+
+[ 2016-05-11T20:34:07+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2016-05-11T20:35:49+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000183s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2016-05-11T20:36:39+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001189s ]
+
+[ 2016-05-11T20:36:56+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2016-05-11T20:37:20+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2016-05-11T20:37:42+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2016-05-11T20:37:52+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2016-05-11T20:37:59+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001180s ]
+
+[ 2016-05-11T20:38:38+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087796s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001029s ]
+
+[ 2016-05-11T20:38:49+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2016-05-11T20:39:16+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2016-05-11T20:42:01+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2016-05-11T20:42:08+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2016-05-11T20:42:20+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2016-05-11T20:42:56+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2016-05-11T20:43:21+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2016-05-11T20:43:37+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2016-05-11T20:44:22+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2016-05-11T20:44:29+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2016-05-11T20:44:46+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2016-05-11T20:45:04+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001290s ]
+
+[ 2016-05-11T20:45:27+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2016-05-11T20:46:42+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2016-05-11T20:46:59+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2016-05-11T20:47:46+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2016-05-11T20:47:58+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2016-05-11T20:48:30+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2016-05-11T20:48:56+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2016-05-11T20:50:05+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001252s ]
+
+[ 2016-05-11T20:52:28+08:00 ] ::1 /index.php/Home/Inventory/inventoryAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache/Home\ae242bc7089a4d7453c4896673014822f1b59293.file.inventory_add.html.php F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache/Home\ae242bc7089a4d7453c4896673014822f1b59293.file.inventory_add.html.php): No such file or directory F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 50 行.
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2016-05-11T21:08:40+08:00 ] ::1 /index.php/Home/Inventory/inventoryAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2016-05-11T21:08:50+08:00 ] ::1 /index.php/Home/Inventory/inventoryAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0114s ]
+
+[ 2016-05-11T21:09:29+08:00 ] ::1 /index.php/Home/Inventory/inventoryAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0026s ]
+
+[ 2016-05-11T21:10:38+08:00 ] ::1 /index.php/Home/Inventory/inventoryAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0025s ]
+
+[ 2016-05-11T21:12:26+08:00 ] ::1 /index.php/Home/Inventory/inventoryAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0026s ]
+
+[ 2016-05-11T21:14:09+08:00 ] ::1 /index.php/Home/Inventory/inventoryAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 49 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 49 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 49 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 49 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 54 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 54 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 54 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 54 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 55 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 55 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 54 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 54 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 54 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 54 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 55 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 55 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 54 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 54 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 54 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 54 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 55 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2016-05-11T21:14:38+08:00 ] ::1 /index.php/Home/Inventory/inventoryAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 49 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 49 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 49 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 49 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 54 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 54 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 54 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 54 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 55 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 55 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 54 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 54 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 54 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 54 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 55 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 55 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 54 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 54 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 54 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 54 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 55 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2016-05-11T21:14:58+08:00 ] ::1 /index.php/Home/Inventory/inventoryAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 45 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 45 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 45 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 45 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 47 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 47 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 47 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 47 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 48 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 48 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 47 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 47 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 47 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 47 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 48 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 48 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 47 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 47 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 47 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 47 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 48 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 48 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2016-05-11T21:15:08+08:00 ] ::1 /index.php/Home/Inventory/inventoryAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 45 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 45 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 45 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 45 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 47 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 47 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 47 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 47 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 48 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 48 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 47 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 47 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 47 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 47 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 48 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 48 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 47 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 47 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 47 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 47 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 48 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 48 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: nav F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001393s ]
+
+[ 2016-05-11T21:15:48+08:00 ] ::1 /index.php/Home/Inventory/inventoryAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001560s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-05-11T21:15:52+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001260s ]
+
+[ 2016-05-11T21:15:54+08:00 ] ::1 /index.php/Home/Inventory/inventoryAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2016-05-11T21:15:59+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2016-05-11T21:16:00+08:00 ] ::1 /index.php/Home/Inventory/inventoryAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-05-11T21:16:01+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2016-05-11T21:16:02+08:00 ] ::1 /index.php/Home/Inventory/inventoryAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2016-05-11T21:16:03+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2016-05-11T21:16:03+08:00 ] ::1 /index.php/Home/Inventory/inventoryAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2016-05-11T21:16:04+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2016-05-11T21:16:06+08:00 ] ::1 /index.php/Home/Inventory/inventoryAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-05-11T21:16:07+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2016-05-11T21:16:08+08:00 ] ::1 /index.php/Home/Inventory/inventoryAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2016-05-11T21:16:09+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2016-05-11T21:16:42+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-05-11T21:16:43+08:00 ] ::1 /index.php/Home/sdfsd/sdafasdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+ERR: 无法加载控制器:Sdfsd
+
+[ 2016-05-11T21:17:05+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2016-05-11T21:17:06+08:00 ] ::1 /index.php/Home/Inventory/inventoryAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2016-05-11T21:17:07+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2016-05-11T21:17:36+08:00 ] ::1 /index.php/Home/Inventory/inventoryAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2016-05-11T21:27:15+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0222s ]
+NOTIC: [8] Undefined variable: filter F:\codetool\wamp64\www\inventoryManage\Application\Home\Controller\InventoryController.class.php 第 9 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\codetool\wamp64\www\inventoryManage\Application\Home\Model\InventoryModel.class.php 第 11 行.
+SQL: SELECT count(id) FROM im_inventory WHERE 1=1  LIMIT 1  [ RunTime:0.0506s ]
+SQL: SELECT * FROM im_inventory WHERE 1=1  LIMIT 0,10 [ RunTime:0.0007s ]
+
+[ 2016-05-11T21:33:08+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: filter F:\codetool\wamp64\www\inventoryManage\Application\Home\Controller\InventoryController.class.php 第 9 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\codetool\wamp64\www\inventoryManage\Application\Home\Model\InventoryModel.class.php 第 11 行.
+SQL: SELECT count(id) FROM im_inventory WHERE 1=1  LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time) as add_time FROM im_inventory WHERE 1=1  LIMIT 0,10 [ RunTime:0.0356s ]
+
+[ 2016-05-11T21:33:14+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0033s ]
+NOTIC: [8] Undefined variable: filter F:\codetool\wamp64\www\inventoryManage\Application\Home\Controller\InventoryController.class.php 第 9 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\codetool\wamp64\www\inventoryManage\Application\Home\Model\InventoryModel.class.php 第 11 行.
+SQL: SELECT count(id) FROM im_inventory WHERE 1=1  LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time) as add_time FROM im_inventory WHERE 1=1  LIMIT 0,10 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+ERR: Syntax Error in template "./Application/Home/View\Inventory\inventory_list.html"  on line 42 "&lt;td&gt;{inventory.name}&lt;/td&gt;"  - Unexpected ".", expected one of: "}" , " "
+
+[ 2016-05-11T21:33:55+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0028s ]
+NOTIC: [8] Undefined variable: filter F:\codetool\wamp64\www\inventoryManage\Application\Home\Controller\InventoryController.class.php 第 9 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\codetool\wamp64\www\inventoryManage\Application\Home\Model\InventoryModel.class.php 第 11 行.
+SQL: SELECT count(id) FROM im_inventory WHERE 1=1  LIMIT 1  [ RunTime:0.0002s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time) as add_time FROM im_inventory WHERE 1=1  LIMIT 0,10 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2016-05-11T21:33:55+08:00 ] ::1 /index.php/Home/Inventory/sdfasdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0003s ]
+ERR: 非法操作:sdfasdf
+
+[ 2016-05-11T21:35:09+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined variable: filter F:\codetool\wamp64\www\inventoryManage\Application\Home\Controller\InventoryController.class.php 第 9 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\codetool\wamp64\www\inventoryManage\Application\Home\Model\InventoryModel.class.php 第 11 行.
+SQL: SELECT count(id) FROM im_inventory WHERE 1=1  LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time) as add_time FROM im_inventory WHERE 1=1  LIMIT 0,10 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: count F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\9ae8f35769378eb1cdbf86e1419cbdf822500f69.file.inventory_list.html.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2016-05-11T21:35:09+08:00 ] ::1 /index.php/Home/Inventory/sdfasdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0003s ]
+ERR: 非法操作:sdfasdf
+
+[ 2016-05-11T21:35:21+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: filter F:\codetool\wamp64\www\inventoryManage\Application\Home\Controller\InventoryController.class.php 第 9 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\codetool\wamp64\www\inventoryManage\Application\Home\Model\InventoryModel.class.php 第 11 行.
+SQL: SELECT count(id) FROM im_inventory WHERE 1=1  LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time) as add_time FROM im_inventory WHERE 1=1  LIMIT 0,10 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2016-05-11T21:35:21+08:00 ] ::1 /index.php/Home/Inventory/sdfasdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0003s ]
+ERR: 非法操作:sdfasdf
+
+[ 2016-05-11T21:36:27+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: filter F:\codetool\wamp64\www\inventoryManage\Application\Home\Controller\InventoryController.class.php 第 9 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\codetool\wamp64\www\inventoryManage\Application\Home\Model\InventoryModel.class.php 第 11 行.
+SQL: SELECT count(id) FROM im_inventory WHERE 1=1  LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time) as add_time FROM im_inventory WHERE 1=1  LIMIT 0,10 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2016-05-11T21:36:27+08:00 ] ::1 /index.php/Home/Inventory/sdfasdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0004s ]
+ERR: 非法操作:sdfasdf
+
+[ 2016-05-11T21:42:32+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0032s ]
+NOTIC: [8] Undefined variable: filter F:\codetool\wamp64\www\inventoryManage\Application\Home\Controller\InventoryController.class.php 第 9 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\codetool\wamp64\www\inventoryManage\Application\Home\Model\InventoryModel.class.php 第 11 行.
+SQL: SELECT count(id) FROM im_inventory WHERE 1=1  LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time) as add_time FROM im_inventory WHERE 1=1  LIMIT 0,10 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001607s ]
+
+[ 2016-05-11T21:42:32+08:00 ] ::1 /index.php/Home/Inventory/sdfasdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0003s ]
+ERR: 非法操作:sdfasdf
+
+[ 2016-05-11T21:42:40+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0042s ]
+NOTIC: [8] Undefined variable: filter F:\codetool\wamp64\www\inventoryManage\Application\Home\Controller\InventoryController.class.php 第 9 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\codetool\wamp64\www\inventoryManage\Application\Home\Model\InventoryModel.class.php 第 11 行.
+SQL: SELECT count(id) FROM im_inventory WHERE 1=1  LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time) as add_time FROM im_inventory WHERE 1=1  LIMIT 0,10 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.145927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.146211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001592s ]
+
+[ 2016-05-11T21:42:40+08:00 ] ::1 /index.php/Home/Inventory/sdfasdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0005s ]
+ERR: 非法操作:sdfasdf
+
+[ 2016-05-11T21:43:42+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0027s ]
+NOTIC: [8] Undefined variable: filter F:\codetool\wamp64\www\inventoryManage\Application\Home\Controller\InventoryController.class.php 第 9 行.
+NOTIC: [2] Invalid argument supplied for foreach() F:\codetool\wamp64\www\inventoryManage\Application\Home\Model\InventoryModel.class.php 第 11 行.
+SQL: SELECT count(id) FROM im_inventory WHERE 1=1  LIMIT 1  [ RunTime:0.0003s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time) as add_time FROM im_inventory WHERE 1=1  LIMIT 0,10 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2016-05-11T21:43:42+08:00 ] ::1 /index.php/Home/Inventory/sdfasdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000206s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0004s ]
+ERR: 非法操作:sdfasdf
+
+[ 2016-05-11T21:43:42+08:00 ] ::1 /index.php/Home/Inventory/sdfasd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0004s ]
+ERR: 非法操作:sdfasd
+
+[ 2016-05-11T21:46:01+08:00 ] ::1 /index.php/Home/Inventory/inventoryAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2016-05-11T21:50:39+08:00 ] ::1 /index.php/Home/Inventory/inventoryAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventoryManage\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 32 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: active F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php 第 50 行.
+NOTIC: [8] Undefined index: types F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\ae242bc7089a4d7453c4896673014822f1b59293.file.inventory_add.html.php 第 40 行.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventoryManage\Application\Runtime\Cache\Home\ae242bc7089a4d7453c4896673014822f1b59293.file.inventory_add.html.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+

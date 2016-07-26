@@ -1,0 +1,29 @@
+CREATE TABLE `im_navbar` (
+  `id` int(10) NOT NULL AUTO INCREMENT,
+  `parent_id` int(10) NOT NULL,
+  `name` varchar(50) CHARACTER SET utf8 NOT NULL,
+  `url` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+INSERT INTO `im_navbar` (`id`, `parent_id`, `name`, `url`) VALUES
+(1, 0, '库存管理', 0),
+(2, 1, '剩余库存', 0),
+(3, 1, '添加新品', 0),
+(4, 1, '库存监控', 0),
+(5, 0, '成本核算', 0),
+(6, 5, '销售成本', 0),
+(7, 5, '误差金额', 0),
+(8, 0, '报表', 0),
+(9, 8, '库存总件数', 0),
+(10, 8, '成本总金额', 0);
+
+
+CREATE TABLE `im_goods` (
+  `id` int(10) NOT NULL AUTO INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `number` varchar(255) NOT NULL,
+  `thumb` varchar(255) NOT NULL,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

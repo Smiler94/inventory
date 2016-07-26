@@ -1,0 +1,14 @@
+.inventory tbody tr td input{    
+    width: 100px;
+    margin:0 auto;
+}
+
+.inventory tbody tr td span{
+    font-size:18px;
+}
+.plus{
+    display: block;
+    width:14px;
+    margin:0 auto;
+    font-size:20px;
+}

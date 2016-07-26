@@ -1,0 +1,60 @@
+[ 2016-05-19T21:46:58+08:00 ] ::1 /index.php/Home/Inventory/inventoryListView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0041s ]
+SQL: SELECT DISTINCT type FROM im_inventory [ RunTime:0.0008s ]
+SQL: SELECT DISTINCT name FROM im_inventory [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Application/Home/View/Public/pageheader.html /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: active /Applications/MAMP/htdocs/inventoryManage/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Undefined index: active /Applications/MAMP/htdocs/inventoryManage/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Undefined index: active /Applications/MAMP/htdocs/inventoryManage/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2016-05-19T21:46:59+08:00 ] ::1 /index.php/Home/Inventory/inventoryListView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0015s ]
+SQL: SELECT DISTINCT type FROM im_inventory [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT name FROM im_inventory [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Application/Home/View/Public/pageheader.html /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: active /Applications/MAMP/htdocs/inventoryManage/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Undefined index: active /Applications/MAMP/htdocs/inventoryManage/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Undefined index: active /Applications/MAMP/htdocs/inventoryManage/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+

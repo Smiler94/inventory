@@ -1,0 +1,25 @@
+.list-header{
+	padding:20px;
+	border:1px solid #e7e7e7;
+	border-radius:4px;
+	margin-bottom:20px;
+}
+.list-table{
+	text-align:center;
+	border:1px solid #e7e7e7;
+	border-radius:4px;
+}
+
+.list-table thead tr td{
+	line-height:50px;
+	font-weight:bold;
+}
+
+.list-table tbody tr td{
+	line-height:50px;
+	vertical-align: middle
+}
+
+#goods_list{
+	line-height:70px;
+}

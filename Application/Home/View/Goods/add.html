@@ -1,0 +1,71 @@
+{include file="Application/Home/View/Public/pageheader.html"}
+<body>
+	<div class="container">
+		<form role="form" action="/index.php/Home/Goods/add" method="post" id="form">
+			<span id="goods">
+			</span>
+			<table class="table">
+				<thead>
+					<tr>
+						<td>商品款式</td>
+						<td>数量</td>
+						<td>价格</td>
+						<td>设置报警数量</td>
+					</tr>
+				</thead>
+				<tbody>
+
+				</tbody>
+			</table>
+			<span class="glyphicon glyphicon-plus" onclick="new_style()"></span>
+			<input type="input" onclick="add()" class="btn btn-default" value="保存"/>
+		</form>
+	</div>
+	{include file="Application/Home/View/Public/modal.html"}
+</body>
+<script>
+	var fields = {
+		'name':['商品名称','text'],
+		'number':['商品编号','text'],
+		'file':['商品图片','file'],
+		'thumb':['','hidden']
+	};
+
+	(function(){
+		var html = '';
+		for(var i in fields){
+			html += '<div class="form-group">';
+			html += '<label for="'+i+'">'+fields[i][0]+'</label>';
+			html += '<input type="'+fields[i][1]+'" class="form-control" name="'+i+'" id="'+i+'"/>';
+			html += '</div>';
+		}
+		$('#goods').html(html);
+		new_style();
+	})();
+
+	function new_style(){
+		var html = '<tr>';
+		html += '<td><input class="form-control" type="text" name="style[]"/>';
+		html += '<td><input class="form-control" type="number" name="stock[]"/>';
+		html += '<td><input class="form-control" type="text" name="cost[]"/>';
+		html += '<td><input class="form-control" type="warn_num" name="warn_num[]"/></tr>';
+		$('tbody').append(html);
+	}
+
+	function add(){
+		$.ajaxFileUpload({
+			type:"POST",
+			dataType:"json",
+			fileElementId:'file',
+			url:'/index.php/Home/Goods/thumbUpload',
+			success: function(result){
+				if(result.error){
+					alert(result.message);
+				}else{
+					$('#thumb').val(result.content);
+					$('#form').submit();
+				}			
+			}		
+		})
+	}
+</script>

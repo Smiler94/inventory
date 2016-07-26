@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>{$title}</title>
+		<link rel="stylesheet" href="/Public/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/Public/css/bootstrap-datetimepicker.css">
+		<link rel="stylesheet" href="/Public/css/style.css">
+		<link rel="stylesheet" href="/Public/css/goods.css">
+		<link rel="stylesheet" href="/Public/css/inventory.css">
+		<link rel="stylesheet" href="/Public/css/select2.min.css">
+		<link rel="styleshett" href="/Public/css/fcbkcomplete.css">
+		<script src="/Public/js/jquery.min.js"></script>
+		<script src="/Public/js/bootstrap.min.js"></script>
+		<script src="/Public/js/bootstrap-datetimepicker.min.js"></script>
+		<script src="/Public/js/locales/bootstrap-datetimepicker.zh-CN.js"></script>
+		<script src="/Public/js/jquery.ajaxfileUpload.js"></script>
+		<script src="/Public/js/select2.full.min.js"></script>
+		<script src="/Public/js/jquery.fcbkcomplete.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="navbar navbar-default" role="navigation">
+				<ul class="nav navbar-nav">
+					{foreach from=$navbar item=nav}
+					<li class="top-nav">
+						<a href="#">
+							{$nav.name}
+						</a>
+						<ul class="child-nav" id="child-nav">
+							{foreach from=$nav.child item=n}
+							<li>
+								<a href="{$n.url}">{$n.name}</a>
+							</li>
+							{/foreach}
+						</ul>
+					</li>
+					{/foreach}
+				</ul>
+			</div>
+		</div>		
+	</body>
+	<script>
+		(function(){
+			$('.top-nav').mouseover(function(){
+				$(this.getElementsByTagName('ul')[0]).show();
+			}).mouseout(function(){
+				$(this.getElementsByTagName('ul')[0]).hide();
+			})
+		})();
+	</script>

@@ -1,0 +1,17 @@
+<ul class="pagination">
+    <li><a href="{$ACTION}?page=1">«第一页</a></li>
+    {if $page - 2 > 0}
+    <li><a href="{$ACTION}?page={$page-2}">{$page-2}</a></li>
+    {/if}
+    {if $page - 1 > 0}
+    <li><a href="{$ACTION}?page={$page-1}">{$page-1}</a></li>
+    {/if}
+    <li><a>{$page}</a></li>
+    {if $page + 1 <= $p_count}
+    <li><a href="{$ACTION}?page={$page+1}">{$page+1}</a></li>
+    {/if}
+    {if $page + 2 <= $p_count}
+    <li><a href="{$ACTION}?page={$page+2}">{$page+2}</a></li>
+    {/if}
+    <li><a href="{$ACTION}?page={$p_count}">最后一页»</a></li>
+</ul>

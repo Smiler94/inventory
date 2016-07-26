@@ -1,0 +1,52 @@
+[ 2016-05-13T23:51:19+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2016-05-13T23:51:23+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2016-05-13T23:51:44+08:00 ] ::1 /index.php/Home/inventory/inventoryView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-05-13T23:52:01+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+

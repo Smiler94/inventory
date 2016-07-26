@@ -1,0 +1,45 @@
+{include file="Application/Home/View/Public/pageheader.html"}
+<body>
+	<div class="container">
+		<div class="list-header">
+			<form role="form" action="{$SELF}" class="form-inline" method="post">
+				<div class="form-group">
+					<label for="number" class="control-label">商品编号:</label>
+					<input type="text" class="form-control" name="number" value="{$filter.number}"/>
+				</div>
+				<div class="form-group">
+					<label for="name" class="control-label">商品名称:</label>
+					<input type="text" class="form-control" name="name" value="{$filter.name}"/>
+				</div>
+				<button class="btn btn-default" >搜索</button>
+			</form>
+		</div>
+		<table class="table table-striped list-table" id="goods_list">
+			<thead>
+				<tr>
+					<td>商品编号</td>
+					<td>商品名称</td>
+					<td>商品图片</td>
+					<td>商品总库存</td>
+					<td>总成本金额</td>
+				</tr>
+			</thead>
+			<tbody>
+				{foreach from=$goods key=k item=g}
+				<tr>
+					<td>
+						<a href="/index.php/Home/Inventory/inventory/goods_id/{$g.id}" target="_blank">{$g.number}</a>
+					</td>
+					<td>{$g.name}</td>
+					<td>
+						<img class="img-thumbnail" width="70px" src="/{$g.thumb}" />
+					</td>
+					<td>{$g.stock}</td>
+					<td>{$g.cost}</td>
+				</tr>
+				{/foreach}
+			</tbody>
+		</table>
+		{include file="Application/Home/VIew/Public/pagination.html"}
+	</div>
+</body>

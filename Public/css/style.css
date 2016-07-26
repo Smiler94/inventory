@@ -1,0 +1,32 @@
+.top-nav{
+	position: relative;
+	width:115px;
+}
+.child-nav{
+	list-style: none;
+	top:50px;
+	position: absolute;
+	background:#f6f6f6;
+	border:1px white solid;
+	padding:10px;
+	border-radius:4px;
+	display:none;
+}
+.child-nav li{
+	text-align:left;
+	height:40px;
+	line-height:40px;
+	font-size:15px;
+}
+.child-nav li a{
+	display:block;
+	color:#777;
+	text-decoration: none;
+}
+.child-nav li a:hover{
+	color:black;
+}
+
+.pagination{
+	float:right;
+}

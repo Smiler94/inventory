@@ -1,0 +1,361 @@
+[ 2016-07-01T20:45:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Application/Home/View/Public/pageheader.html /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/inventory/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object /Applications/MAMP/htdocs/inventory/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2016-07-01T20:45:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Application/Home/View/Public/pageheader.html /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/inventory/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object /Applications/MAMP/htdocs/inventory/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2016-07-01T20:45:45+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Application/Home/View/Public/pageheader.html /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/inventory/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object /Applications/MAMP/htdocs/inventory/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2016-07-01T20:45:50+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Application/Home/View/Public/pageheader.html /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: title /Applications/MAMP/htdocs/inventory/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 33 行.
+NOTIC: [8] Trying to get property of non-object /Applications/MAMP/htdocs/inventory/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2016-07-01T20:45:51+08:00 ] 127.0.0.1 /index.php/Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `im_goods` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `im_goods` WHERE (  1=1 AND id = '7'  )  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2016-07-01T20:45:54+08:00 ] 127.0.0.1 /index.php/Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `im_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `im_goods` WHERE (  1=1 AND id = '7'  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2016-07-01T20:45:57+08:00 ] 127.0.0.1 /index.php/Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `im_goods` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `im_goods` WHERE (  1=1 AND id = '7'  )  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2016-07-01T20:46:05+08:00 ] 127.0.0.1 /index.php/Home/Inventory/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+ERR: 无法加载控制器:Inventory
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-07-01T20:46:13+08:00 ] 127.0.0.1 /index.php/Home/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Application/Home/View/Public/pageheader.html /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource.php 第 315 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2016-07-01T20:46:13+08:00 ] 127.0.0.1 /index.php/Home/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Application/Home/View/Public/pageheader.html /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource.php 第 315 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2016-07-01T20:47:29+08:00 ] 127.0.0.1 /index.php/Home/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Application/Home/View/Public/pageheader.html /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource.php 第 315 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2016-07-01T20:47:44+08:00 ] 127.0.0.1 /index.php/Home/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Application/Home/View/Public/pageheader.html /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource.php 第 315 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-07-01T20:49:15+08:00 ] 127.0.0.1 /index.php/Home/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Application/Home/View/Public/pageheader.html /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource.php 第 315 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2016-07-01T20:49:35+08:00 ] 127.0.0.1 /index.php/Home/Goods/add?name=sdfsdf&number=123&style%5B%5D=aaa&stock%5B%5D=20&cost%5B%5D=123&warn_num%5B%5D=4&style%5B%5D=bob&stock%5B%5D=30&cost%5B%5D=123&warn_num%5B%5D=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Application/Home/View/Public/pageheader.html /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource.php 第 315 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000364s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2016-07-01T20:50:33+08:00 ] 127.0.0.1 /index.php/Home/Goods/add?name=sdfsdf&number=123&style%5B%5D=aaa&stock%5B%5D=20&cost%5B%5D=123&warn_num%5B%5D=4&style%5B%5D=bob&stock%5B%5D=30&cost%5B%5D=123&warn_num%5B%5D=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Application/Home/View/Public/pageheader.html /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource.php 第 315 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2016-07-01T20:50:34+08:00 ] 127.0.0.1 /index.php/Home/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2016-07-01T20:51:12+08:00 ] 127.0.0.1 /index.php/Home/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventory/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventory/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+

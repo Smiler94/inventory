@@ -1,0 +1,250 @@
+[ 2016-05-17T18:23:13+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0056s ]
+NOTIC: [8] Undefined variable: title /Applications/MAMP/htdocs/inventoryManage/Application/Home/Controller/PublicController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Application/Home/View/Public/pageheader.html /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: active /Applications/MAMP/htdocs/inventoryManage/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Undefined index: active /Applications/MAMP/htdocs/inventoryManage/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Undefined index: active /Applications/MAMP/htdocs/inventoryManage/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Undefined index: active /Applications/MAMP/htdocs/inventoryManage/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001175s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001255s ]
+
+[ 2016-05-17T18:23:20+08:00 ] ::1 /index.php/Home/Inventory/inventoryListView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0032s ]
+SQL: SELECT DISTINCT type FROM im_inventory [ RunTime:0.0009s ]
+SQL: SELECT DISTINCT name FROM im_inventory [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Application/Home/View/Public/pageheader.html /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: active /Applications/MAMP/htdocs/inventoryManage/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Undefined index: active /Applications/MAMP/htdocs/inventoryManage/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Undefined index: active /Applications/MAMP/htdocs/inventoryManage/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000939s ]
+
+[ 2016-05-17T18:23:20+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: title /Applications/MAMP/htdocs/inventoryManage/Application/Home/Controller/PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0010s ]
+SQL: SELECT count(id) FROM im_inventory WHERE 1=1  LIMIT 1  [ RunTime:0.0021s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time) as add_time FROM im_inventory WHERE 1=1  LIMIT 0,10 [ RunTime:0.0006s ]
+
+[ 2016-05-17T18:23:21+08:00 ] ::1 /index.php/Home/Inventory/sdfasdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: title /Applications/MAMP/htdocs/inventoryManage/Application/Home/Controller/PublicController.class.php 第 18 行.
+ERR: 非法操作:sdfasdf
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-05-17T18:23:21+08:00 ] ::1 /index.php/Home/Inventory/Public/upload/20160515/1463296255.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1532 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1534 行.
+
+[ 2016-05-17T18:23:21+08:00 ] ::1 /index.php/Home/Inventory/sdfasd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: title /Applications/MAMP/htdocs/inventoryManage/Application/Home/Controller/PublicController.class.php 第 18 行.
+ERR: 非法操作:sdfasd
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-05-17T18:23:21+08:00 ] ::1 /index.php/Home/Inventory/inventoryAddView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Application/Home/View/Public/pageheader.html /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: active /Applications/MAMP/htdocs/inventoryManage/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Undefined index: active /Applications/MAMP/htdocs/inventoryManage/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Undefined index: active /Applications/MAMP/htdocs/inventoryManage/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-05-17T18:23:22+08:00 ] ::1 /index.php/Home/Bill/billSettleView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT name FROM im_inventory [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Application/Home/View/Public/pageheader.html /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: active /Applications/MAMP/htdocs/inventoryManage/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Undefined index: active /Applications/MAMP/htdocs/inventoryManage/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Undefined index: active /Applications/MAMP/htdocs/inventoryManage/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 52 行.
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Application/Home/View/Public/modal.html /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource.php 第 315 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-05-17T18:23:23+08:00 ] ::1 /index.php/Home/Inventory/inventoryListView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0011s ]
+SQL: SELECT DISTINCT type FROM im_inventory [ RunTime:0.0003s ]
+SQL: SELECT DISTINCT name FROM im_inventory [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View/Application/Home/View/Public/pageheader.html /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Vendor/Smarty/sysplugins/smarty_resource.php 第 315 行.
+NOTIC: [8] Undefined index: active /Applications/MAMP/htdocs/inventoryManage/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Undefined index: active /Applications/MAMP/htdocs/inventoryManage/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 52 行.
+NOTIC: [8] Undefined index: active /Applications/MAMP/htdocs/inventoryManage/Application/Runtime/Cache/Home/3c4c8d61199cdfdeca49d55070a407c2d4411dea.file.pageheader.html.php 第 52 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2016-05-17T18:23:23+08:00 ] ::1 /index.php/Home/Inventory/inventoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: title /Applications/MAMP/htdocs/inventoryManage/Application/Home/Controller/PublicController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0018s ]
+SQL: SELECT count(id) FROM im_inventory WHERE 1=1  LIMIT 1  [ RunTime:0.0004s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time) as add_time FROM im_inventory WHERE 1=1  LIMIT 0,10 [ RunTime:0.0005s ]
+
+[ 2016-05-17T18:23:23+08:00 ] ::1 /index.php/Home/Inventory/Public/upload/20160515/1463296255.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1532 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1534 行.
+
+[ 2016-05-17T18:23:23+08:00 ] ::1 /index.php/Home/Inventory/sdfasdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: title /Applications/MAMP/htdocs/inventoryManage/Application/Home/Controller/PublicController.class.php 第 18 行.
+ERR: 非法操作:sdfasdf
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2016-05-17T18:23:23+08:00 ] ::1 /index.php/Home/Inventory/sdfasd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SELECT * FROM im_navbar [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: title /Applications/MAMP/htdocs/inventoryManage/Application/Home/Controller/PublicController.class.php 第 18 行.
+ERR: 非法操作:sdfasd
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/inventoryManage/Application/Home/Common/function.php:1) /Applications/MAMP/htdocs/inventoryManage/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
