@@ -144,7 +144,28 @@
                 }
             );
         }
-
-        console.log(id);
+        var inventory = new Array();
+        for(var i in style){
+            var a = {};
+            for(var j in field){
+                eval("a['"+field[j]+"']= "+field[j]+'[i]');
+            }
+            inventory.push(a);
+        }
+        $.ajax ({
+            url : '/index.php/Home/Inventory/inventoryUpdate',
+            type : "post",
+            dataType : "json",
+            data : { 'inventory' : inventory, 'goods_id' : {$goods.id} },
+            success : function(result) {
+                if(result.error){
+                    alert(result.message);
+                }else{
+                    var content = result.content;
+                    
+                }
+            }
+        });
+             
     }
 </script>

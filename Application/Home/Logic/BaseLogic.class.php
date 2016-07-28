@@ -5,7 +5,7 @@ use Think\Model;
 
 class BaseLogic extends Model
 {
-
+	protected $message = array();
     /*
      * 错误数组
      */

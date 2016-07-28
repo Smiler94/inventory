@@ -1,0 +1,787 @@
+[ 2016-07-28T21:01:37+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.050001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0800s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php Á¨¨ 315 Ë°å.
+NOTIC: [8] Undefined index: title F:\codetool\wamp64\www\inventory\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php Á¨¨ 33 Ë°å.
+NOTIC: [8] Trying to get property of non-object F:\codetool\wamp64\www\inventory\Application\Runtime\Cache\Home\3e77f4abb1ea159d01fc76d85b3eae37b7001192.file.pageheader.html.php Á¨¨ 33 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-28T21:01:48+08:00 ] ::1 /index.php/Home/Inventory/inventory/goods_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `im_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `im_goods` WHERE (  1=1 AND id = '2'  )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `im_inventory` WHERE (  1=1 AND goods_id in (2)  )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php Á¨¨ 315 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.500001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.500001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-07-28T21:01:48+08:00 ] ::1 /index.php/Home/inventory/allStyle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`style` FROM `im_inventory` WHERE (  1=1 AND goods_id in (2)  )  [ RunTime:0.0000s ]
+
+[ 2016-07-28T21:02:24+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0100s ]
+
+[ 2016-07-28T21:02:43+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-28T21:03:04+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0100s ]
+
+[ 2016-07-28T21:05:39+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-07-28T21:05:51+08:00 ] ::1 /index.php/Home/Inventory/inventory/goods_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `im_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `im_goods` WHERE (  1=1 AND id = '2'  )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `im_inventory` WHERE (  1=1 AND goods_id in (2)  )  [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php Á¨¨ 315 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-28T21:05:52+08:00 ] ::1 /index.php/Home/inventory/allStyle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`style` FROM `im_inventory` WHERE (  1=1 AND goods_id in (2)  )  [ RunTime:0.0000s ]
+
+[ 2016-07-28T21:05:54+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0000s ]
+
+[ 2016-07-28T21:06:18+08:00 ] ::1 /index.php/Home/Inventory/inventory/goods_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `im_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `im_goods` WHERE (  1=1 AND id = '2'  )  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `im_inventory` WHERE (  1=1 AND goods_id in (2)  )  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php Á¨¨ 315 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.917032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.917032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-28T21:06:19+08:00 ] ::1 /index.php/Home/inventory/allStyle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`style` FROM `im_inventory` WHERE (  1=1 AND goods_id in (2)  )  [ RunTime:0.0000s ]
+
+[ 2016-07-28T21:08:21+08:00 ] ::1 /index.php/Home/Inventory/inventory/goods_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-07-28T21:08:46+08:00 ] ::1 /index.php/Home/Inventory/inventory/goods_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-07-28T21:09:10+08:00 ] ::1 /index.php/Home/Inventory/inventory/goods_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-07-28T21:09:30+08:00 ] ::1 /index.php/Home/Inventory/inventory/goods_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `im_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `im_goods` WHERE (  1=1 AND id = '2'  )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `im_inventory` WHERE (  1=1 AND goods_id in (2)  )  [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php Á¨¨ 315 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.900001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.900001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-28T21:09:30+08:00 ] ::1 /index.php/Home/inventory/allStyle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`style` FROM `im_inventory` WHERE (  1=1 AND goods_id in (2)  )  [ RunTime:0.0050s ]
+
+[ 2016-07-28T21:09:36+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0100s ]
+
+[ 2016-07-28T21:10:32+08:00 ] ::1 /index.php/Home/Inventory/inventory/goods_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `im_goods` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `im_goods` WHERE (  1=1 AND id = '2'  )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `im_inventory` WHERE (  1=1 AND goods_id in (2)  )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php Á¨¨ 315 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.460001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.460001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-07-28T21:10:33+08:00 ] ::1 /index.php/Home/inventory/allStyle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`style` FROM `im_inventory` WHERE (  1=1 AND goods_id in (2)  )  [ RunTime:0.0100s ]
+
+[ 2016-07-28T21:10:36+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0040s ]
+
+[ 2016-07-28T21:12:24+08:00 ] ::1 /index.php/Home/Inventory/inventory/goods_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-07-28T21:12:47+08:00 ] ::1 /index.php/Home/Inventory/inventory/goods_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-07-28T21:13:12+08:00 ] ::1 /index.php/Home/Inventory/inventory/goods_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-07-28T21:14:11+08:00 ] ::1 /index.php/Home/Inventory/inventory/goods_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-07-28T21:14:34+08:00 ] ::1 /index.php/Home/Inventory/inventory/goods_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-07-28T21:14:57+08:00 ] ::1 /index.php/Home/Inventory/inventory/goods_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-07-28T21:15:30+08:00 ] ::1 /index.php/Home/Inventory/inventory/goods_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0500s ]
+SQL: SHOW COLUMNS FROM `im_goods` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `im_goods` WHERE (  1=1 AND id = '2'  )  [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `im_inventory` WHERE (  1=1 AND goods_id in (2)  )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php Á¨¨ 315 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.410000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.410000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-28T21:15:31+08:00 ] ::1 /index.php/Home/inventory/allStyle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`style` FROM `im_inventory` WHERE (  1=1 AND goods_id in (2)  )  [ RunTime:0.0040s ]
+
+[ 2016-07-28T21:16:26+08:00 ] ::1 /index.php/Home/Inventory/inventory/goods_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `im_goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `im_goods` WHERE (  1=1 AND id = '2'  )  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `im_inventory` WHERE (  1=1 AND goods_id in (2)  )  [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Home/View\Application\Home\View\Public\pageheader.html F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php Á¨¨ 315 Ë°å.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.724030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.724030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-28T21:16:27+08:00 ] ::1 /index.php/Home/inventory/allStyle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`style` FROM `im_inventory` WHERE (  1=1 AND goods_id in (2)  )  [ RunTime:0.0040s ]
+
+[ 2016-07-28T21:16:29+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0060s ]
+
+[ 2016-07-28T21:16:52+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined variable: data F:\codetool\wamp64\www\inventory\Application\Home\Controller\InventoryController.class.php Á¨¨ 59 Ë°å.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-28T21:17:23+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0000s ]
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 97 Ë°å.
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php Á¨¨ 97 Ë°å.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2''  )' at line 1
+
+[ 2016-07-28T21:17:43+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0040s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''2''  )' at line 1
+
+[ 2016-07-28T21:19:18+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-07-28T21:19:46+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-07-28T21:20:32+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-07-28T21:20:57+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-07-28T21:21:21+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-07-28T21:22:01+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-07-28T21:22:25+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-07-28T21:23:04+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-07-28T22:02:26+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-07-28T22:03:17+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-07-28T22:03:52+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-07-28T22:08:48+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-07-28T22:24:35+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0000s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'out' in 'field list'
+
+[ 2016-07-28T22:25:21+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0100s ]
+
+[ 2016-07-28T22:28:39+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0000s ]
+
+[ 2016-07-28T22:29:10+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0060s ]
+
+[ 2016-07-28T22:30:33+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [2002] ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2016-07-28T22:31:25+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0100s ]
+SQL: SELECT `style`,`stock`,`warn_num`,`cost`,`id` FROM `im_inventory` WHERE (  1=1 AND goods_id = '2'  )  [ RunTime:0.0000s ]
+
+[ 2016-07-28T22:32:16+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0100s ]
+SQL: SELECT `style`,`stock`,`warn_num`,`cost`,`id` FROM `im_inventory` WHERE (  1=1 AND goods_id = '2'  )  [ RunTime:0.0000s ]
+
+[ 2016-07-28T22:42:25+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 2 for Think\Model::autoValidation(), called in F:\codetool\wamp64\www\inventory\Application\Home\Logic\BaseLogic.class.php on line 31 and defined F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1179 Ë°å.
+NOTIC: [2] preg_match(): Delimiter must not be alphanumeric or backslash F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1116 Ë°å.
+NOTIC: [2] Missing argument 2 for Think\Model::autoValidation(), called in F:\codetool\wamp64\www\inventory\Application\Home\Logic\BaseLogic.class.php on line 31 and defined F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1179 Ë°å.
+NOTIC: [2] preg_match(): Delimiter must not be alphanumeric or backslash F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1116 Ë°å.
+
+[ 2016-07-28T22:44:32+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 2 for Think\Model::autoValidation(), called in F:\codetool\wamp64\www\inventory\Application\Home\Logic\BaseLogic.class.php on line 31 and defined F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1179 Ë°å.
+NOTIC: [2] preg_match(): Delimiter must not be alphanumeric or backslash F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1116 Ë°å.
+NOTIC: [2] Missing argument 1 for Home\Logic\BaseLogic::error(), called in F:\codetool\wamp64\www\inventory\Application\Home\Logic\InventoryLogic.class.php on line 86 and defined F:\codetool\wamp64\www\inventory\Application\Home\Logic\BaseLogic.class.php Á¨¨ 12 Ë°å.
+
+[ 2016-07-28T22:45:09+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 2 for Think\Model::autoValidation(), called in F:\codetool\wamp64\www\inventory\Application\Home\Logic\BaseLogic.class.php on line 31 and defined F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1179 Ë°å.
+NOTIC: [2] Missing argument 1 for Home\Logic\BaseLogic::error(), called in F:\codetool\wamp64\www\inventory\Application\Home\Logic\InventoryLogic.class.php on line 86 and defined F:\codetool\wamp64\www\inventory\Application\Home\Logic\BaseLogic.class.php Á¨¨ 12 Ë°å.
+
+[ 2016-07-28T22:45:29+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 2 for Think\Model::autoValidation(), called in F:\codetool\wamp64\www\inventory\Application\Home\Logic\BaseLogic.class.php on line 31 and defined F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1179 Ë°å.
+NOTIC: [2] Missing argument 1 for Home\Logic\BaseLogic::error(), called in F:\codetool\wamp64\www\inventory\Application\Home\Logic\InventoryLogic.class.php on line 86 and defined F:\codetool\wamp64\www\inventory\Application\Home\Logic\BaseLogic.class.php Á¨¨ 12 Ë°å.
+
+[ 2016-07-28T22:47:21+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 2 for Think\Model::autoValidation(), called in F:\codetool\wamp64\www\inventory\Application\Home\Logic\BaseLogic.class.php on line 31 and defined F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1179 Ë°å.
+NOTIC: [2] Missing argument 1 for Home\Logic\BaseLogic::error(), called in F:\codetool\wamp64\www\inventory\Application\Home\Logic\InventoryLogic.class.php on line 86 and defined F:\codetool\wamp64\www\inventory\Application\Home\Logic\BaseLogic.class.php Á¨¨ 12 Ë°å.
+
+[ 2016-07-28T22:49:22+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 2 for Think\Model::autoValidation(), called in F:\codetool\wamp64\www\inventory\Application\Home\Logic\BaseLogic.class.php on line 31 and defined F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1179 Ë°å.
+NOTIC: [2] Missing argument 2 for Think\Model::autoValidation(), called in F:\codetool\wamp64\www\inventory\Application\Home\Logic\BaseLogic.class.php on line 31 and defined F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1179 Ë°å.
+
+[ 2016-07-28T22:51:30+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 2 for Think\Model::autoValidation(), called in F:\codetool\wamp64\www\inventory\Application\Home\Logic\BaseLogic.class.php on line 31 and defined F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1179 Ë°å.
+NOTIC: [2] Missing argument 2 for Think\Model::autoValidation(), called in F:\codetool\wamp64\www\inventory\Application\Home\Logic\BaseLogic.class.php on line 31 and defined F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1179 Ë°å.
+
+[ 2016-07-28T22:52:04+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 2 for Think\Model::autoValidation(), called in F:\codetool\wamp64\www\inventory\Application\Home\Logic\BaseLogic.class.php on line 31 and defined F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1179 Ë°å.
+NOTIC: [2] Missing argument 2 for Think\Model::autoValidation(), called in F:\codetool\wamp64\www\inventory\Application\Home\Logic\BaseLogic.class.php on line 31 and defined F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1179 Ë°å.
+
+[ 2016-07-28T22:52:27+08:00 ] ::1 /index.php/Home/Inventory/inventoryUpdate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM im_navbar [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `im_inventory` [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 2 for Think\Model::autoValidation(), called in F:\codetool\wamp64\www\inventory\Application\Home\Logic\BaseLogic.class.php on line 31 and defined F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1179 Ë°å.
+NOTIC: [2] Missing argument 2 for Think\Model::autoValidation(), called in F:\codetool\wamp64\www\inventory\Application\Home\Logic\BaseLogic.class.php on line 31 and defined F:\codetool\wamp64\www\inventory\ThinkPHP\Library\Think\Model.class.php Á¨¨ 1179 Ë°å.
+

@@ -15,7 +15,7 @@ class GoodsLogic extends BaseLogic
 			array('number','require','请输入商品编号'),
 			array('style','require','请输入款式名'),
 			array('stock','integer','数量必须是整数'),
-			array('cost','is_numeric','金额必须是数字','','function'),
+			array('cost','is_numeric','成本金额必须是数字','','function'),
 			array('warn_num','integer','报警数量必须是整数')
 
 		);

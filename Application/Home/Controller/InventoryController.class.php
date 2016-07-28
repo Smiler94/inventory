@@ -54,8 +54,9 @@ class InventoryController extends PublicController
     public function inventoryUpdate()
     {
         $goods_id = I('request.goods_id');
-        $data = I('request.data');
+        $inventory = I('request.inventory');
 
-        $res = D('Inventory','Logic')->updateInventory($goods_id,$data);
+        $res = D('Inventory','Logic')->updateInventory($goods_id,$inventory);
+        dump($res);exit;
     }
 }

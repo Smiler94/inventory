@@ -68,17 +68,43 @@ class InventoryLogic extends BaseLogic
 	 */
 	public function updateInventory($goods_id,$data)
 	{
-	    if(emtpy($goods_id) || empty($data)){
+	    if(empty($goods_id)){
 	    	return $this->error('参数不正确');
 	    }
 
+	    $this->_validate = array(
+	    	array('style','require','款式不能为空',self::MUST_VALIDATE,'regex'),
+	    	array('stock','number','库存数量必须为整数',self::MUST_VALIDATE,'regex'),
+	    	array('warn_num','number','库存警报必须为整数',self::MUST_VALIDATE,'regex'),
+	    	array('cost','is_numeric','库存成本金额必须为数字',self::MUST_VALIDATE,'function'),
+	    	array('out','number','出库数量必须为整数',self::VALUE_VALIDATE,'regex'),
+	    	array('check','number','库存修正必须为整数',self::VALUE_VALIDATE,'regex'),
+	    );
+	    foreach($data as $key => $val){
+	    	if(!$this->validate($val)){
+	    		$this->message[] = '第'.($key+1).'行:'.$this->error;
+	    		unset($data[$key]);
+	    		continue;
+	    	}
+	    	$data[$key] = array();
+	    	$data[$key]['out'] = $val['out'];
+	    	unset($val['out']);
+	    	$data[$key]['check'] = $val['check'];
+	    	unset($val['check']);
+	    	$data[$key]['inventory'] = $val;
+	    }
+	    if(empty($data)){
+	    	return $this->error(join(',',$this->message));
+	    }
 	    $filter = array(
 	    	array('goods_id','=',$goods_id)
 	    );
-	    $field = array_keys($data[0]);
-	    $inventory = D('inventory')->inf($filter,$data);
+
+	    $field = array_keys($data[0]['inventory']);
+	    $inventory = D('inventory')->info($filter,$field);
+
 	    foreach($data as $val){
-	    	if(!in_array($val,$inventory)){
+	    	if(!in_array($val['inventory'],$inventory)){
 	    		D('inventory')->update($val);
 	    	}
 	    }
