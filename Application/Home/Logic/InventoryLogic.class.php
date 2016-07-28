@@ -61,4 +61,26 @@ class InventoryLogic extends BaseLogic
 	    }
 	    return $this->error('该商品无款式');
 	}
+	/**
+	 * 更新库存信息
+	 * 
+	 * @author 林祯 2016-07-28 16:03:28
+	 */
+	public function updateInventory($goods_id,$data)
+	{
+	    if(emtpy($goods_id) || empty($data)){
+	    	return $this->error('参数不正确');
+	    }
+
+	    $filter = array(
+	    	array('goods_id','=',$goods_id)
+	    );
+	    $field = array_keys($data[0]);
+	    $inventory = D('inventory')->inf($filter,$data);
+	    foreach($data as $val){
+	    	if(!in_array($val,$inventory)){
+	    		D('inventory')->update($val);
+	    	}
+	    }
+	}
 }

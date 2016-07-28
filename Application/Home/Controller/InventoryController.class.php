@@ -45,4 +45,17 @@ class InventoryController extends PublicController
             make_json_result(array());
         }
     }
+
+    /**
+     * 更新库存信息
+     * 
+     * @author 林祯 2016-07-28 16:02:01
+     */
+    public function inventoryUpdate()
+    {
+        $goods_id = I('request.goods_id');
+        $data = I('request.data');
+
+        $res = D('Inventory','Logic')->updateInventory($goods_id,$data);
+    }
 }
