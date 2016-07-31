@@ -57,6 +57,22 @@ class InventoryController extends PublicController
         $inventory = I('request.inventory');
 
         $res = D('Inventory','Logic')->updateInventory($goods_id,$inventory);
-        dump($res);exit;
+        if($res['success']){
+            make_json_result($res['content']);
+        }else{
+            make_json_result($res['msg']);
+        }
+    }
+
+    /**
+     * 库存监控
+     * 
+     * @author 林祯 2016-7-31 21:56:47
+     */
+    public function monitor()
+    {
+        $res = D('Inventory','Logic')->monitorInventory();
+
+        $this->display('monitor');
     }
 }

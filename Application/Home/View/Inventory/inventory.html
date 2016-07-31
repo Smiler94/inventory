@@ -56,6 +56,7 @@
         <datalist id="styles">
         </datalist>
         <button class="btn btn-success" onclick="javascript:save()">保存</button>
+        {include file="Application/Home/View/Public/modal.html"}
 	</div>
 </body>
 <script>
@@ -158,14 +159,16 @@
             dataType : "json",
             data : { 'inventory' : inventory, 'goods_id' : {$goods.id} },
             success : function(result) {
+                var res = '';
                 if(result.error){
-                    alert(result.message);
+                    res = '全部更新失败,' + result.error.join(',');
                 }else{
                     var content = result.content;
-                    
+                    res = $.isEmptyObject(content) ? '更新成功' : content.join(',') + ',其他更新成功';
                 }
+                $('#MODAL_CONTENT').html(res);
+                $('#MODAL').modal();
             }
-        });
-             
+        });             
     }
 </script>
