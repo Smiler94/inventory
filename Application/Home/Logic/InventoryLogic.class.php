@@ -144,6 +144,14 @@ class InventoryLogic extends BaseLogic
 	    $filed = '*';
 
 	    $res = D('inventory')->info($filter,$field);
+
+	    foreach($res as $key => $val){
+	    	$filter = array(
+	    		array('id','=',$val['goods_id'])
+	    	);
+			$goods = D('goods')->info($filter,'name');
+	    	$res[$key]['name'] = $goods[0]['name'];
+	    }
 	    return $this->success($res);
 	}
 }

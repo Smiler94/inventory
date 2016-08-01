@@ -102,7 +102,7 @@ class GoodsModel extends Model
 			if($val[1] == 'in'){
 				$where .= 'AND '.$val[0].' '.$val[1]." (".$val[2].") ";
 			}else{
-				$where .= 'AND '.$val[0].' '.$val[1]." '".$val[2]."' ";
+				$where .= 'AND '.$val[0].' '.$val[1]." ".$val[2];
 			}
 		}
 		$info = $this->where($where)->select();

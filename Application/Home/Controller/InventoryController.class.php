@@ -72,7 +72,7 @@ class InventoryController extends PublicController
     public function monitor()
     {
         $res = D('Inventory','Logic')->monitorInventory();
-
+        $this->assign($res);
         $this->display('monitor');
     }
 }

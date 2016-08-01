@@ -1,6 +1,25 @@
 {include file="Application/Home/View/Public/pageheader.html"}
 <body>
     <div class="container">
-        
+        <table class="table table-triped list-table">
+        	<thead>
+        		<tr>
+        			<td>商品名称</td>
+        			<td>款式</td>
+        			<td>警报数量</td>
+        			<td>现库存</td>
+        		</tr>
+        	</thead>
+        	<tbody>
+        		{foreach from=$content item=inventory}
+        		<tr>
+        			<td>{$inventory.name}</td>
+        			<td>{$inventory.style}</td>
+        			<td>{$inventory.warn_num}</td>
+        			<td>{$inventory.stock}</td>
+        		</tr>
+        		{/foreach}
+        	</tbody>
+        </table>
     </div>
 </body>
