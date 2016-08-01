@@ -89,7 +89,7 @@ class GoodsModel extends Model
 		);
 	}
 
-	public function info($data)
+	public function info($data = array(),$field = '*')
 	{
 		if(empty($data)){
 			return false;
@@ -105,7 +105,7 @@ class GoodsModel extends Model
 				$where .= 'AND '.$val[0].' '.$val[1]." ".$val[2];
 			}
 		}
-		$info = $this->where($where)->select();
+		$info = $this->where($where)->field($field)->select();
 		return $info;
 	} 
 }

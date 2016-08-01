@@ -43,20 +43,19 @@ class CheckModel extends Model
         return $data;
     }
 
-    public function info($filter,$field = "*")
+    public function info($filter = array(),$field = "*")
     {
-        if(empty($filter)){
-            return false;
-        }
         $where = ' 1=1 ';
-        foreach($filter as $key => $val){
-            if(!in_array($val[0],$this->fields)){
-                continue;
-            }
-            if($val[1] == 'in'){
-                $where .= 'AND '.$val[0].' '.$val[1]." (".$val[2].") ";
-            }else{
-                $where .= 'AND '.$val[0].' '.$val[1]." '".$val[2]."' ";
+        if(!empty($filter)){       
+            foreach($filter as $key => $val){
+                if(!in_array($val[0],$this->fields)){
+                    continue;
+                }
+                if($val[1] == 'in'){
+                    $where .= 'AND '.$val[0].' '.$val[1]." (".$val[2].") ";
+                }else{
+                    $where .= 'AND '.$val[0].' '.$val[1]." ".$val[2];
+                }
             }
         }
         $info = $this->where($where)->field($field)->select();

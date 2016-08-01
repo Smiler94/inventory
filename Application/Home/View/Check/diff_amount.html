@@ -1,0 +1,34 @@
+{include file="Application/Home/View/Public/pageheader.html"}
+<body>
+	<div class="container">
+		<table class="table table-triped list-table">
+			<thead>
+				<tr>
+					<td>商品名称</td>
+					<td>款式</td>
+					<td>商品成本</td>
+					<td>修正数量</td>
+					<td>误差金额</td>
+					<td>修正时间</td>
+				</tr>
+			</thead>
+			<tbody>
+				{foreach from=$content.check item=term}
+				<tr>
+					<td>{$term.goods.name}</td>
+					<td>{$term.inventory.style}</td>
+					<td>{$term.inventory.cost}</td>
+					<td>{$term.num}</td>
+					<td>{$term.total}</td>
+					<td>{$term.created_at}</td>
+				</tr>
+				{/foreach}
+				<tr>
+					<td colspan="6">
+					总误差金额：{$content.total}
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
