@@ -91,21 +91,20 @@ class GoodsModel extends Model
 
 	public function info($data = array(),$field = '*')
 	{
-		if(empty($data)){
-			return false;
-		}
 		$where = ' 1=1 ';
-		foreach($data as $key => $val){
-			if(!in_array($val[0],$this->fields)){
-				continue;
-			}
-			if($val[1] == 'in'){
-				$where .= 'AND '.$val[0].' '.$val[1]." (".$val[2].") ";
-			}else{
-				$where .= 'AND '.$val[0].' '.$val[1]." ".$val[2];
-			}
-		}
-		$info = $this->where($where)->field($field)->select();
-		return $info;
+        if(!empty($filter)){       
+            foreach($filter as $key => $val){
+                if(!in_array($val[0],$this->fields)){
+                    continue;
+                }
+                if($val[1] == 'in'){
+                    $where .= ' AND '.$val[0].' '.$val[1]." (".$val[2].") ";
+                }else{
+                    $where .= ' AND '.$val[0].' '.$val[1]." ".$val[2];
+                }
+            }
+        }
+        $info = $this->where($where)->field($field)->select();
+        return $info;
 	} 
 }

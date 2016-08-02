@@ -1,0 +1,61 @@
+{include file="Application/Home/View/Public/pageheader.html"}
+<body>
+	<div class="container">
+		<form role="form" class="form-inline" action="{$ACTION}" method="post">
+			<div class="form-group" style="line-height:60px;height:60px;">
+				<label class="control-label" for="time">选择时间:</label>
+				<div class="input-append date form_datetime" style="float:right">
+					<input size="8" type="text" class="form-control" value="" name="time" readonly>
+					<span class="add-on"><i class="icon-th"></i></span>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="control-label" for="shop">选择店铺:</label>
+				<select class="form-control" name="goods_name" id="goods_name" style="width:160px">
+					<option value=""></option>
+					<option value="">店铺1</option>
+					<option value="">店铺2</option>
+				</select>
+			</div>
+			<input type="submit" class="btn btn-success" value="查看出库详情" />
+		</form>
+		<table class="table table-triped list-table">
+			<thead>
+				<tr>
+					<td>商品名</td>
+					<td>款式</td>
+					<td>成本</td>
+					<td>出库数量</td>
+					<td>销售成本</td>
+					<td>出库时间</td>
+				</tr>
+			</thead>
+			<tbody>
+				{foreach from=$content.bills item=bill}
+				<tr>
+					<td>{$bill.goods.name}</td>
+					<td>{$bill.inventory.style}</td>
+					<td>{$bill.inventory.cost}</td>
+					<td>{$bill.num}</td>
+					<td>{$bill.total}</td>
+					<td>{$bill.created_at}</td>
+				</tr>
+				{/foreach}
+				{if $content.total}
+				<tr>
+					<td colspan="6">
+					总销售成本：{$content.total}
+					</td>
+				</tr>
+				{/if}
+			</tbody>
+		</table>
+	</div>
+</body>
+<script>
+$(".form_datetime").datetimepicker({
+    format: "yyyy-mm-dd",
+	language: 'zh-CN',
+	autoclose:true
+});
+</script>
