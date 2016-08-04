@@ -1,0 +1,74 @@
+{include file="Application/Home/View/Public/pageheader.html"}
+<body>
+	<div class="container">
+		<table class="table table-triped list-table">
+			<thead>
+				<tr>
+					<td width="50%">商店名</td>
+					<td>添加时间</td>
+				</tr>
+			</thead>
+			<tbody id="shop_table">
+				{foreach from=$shop item=s}
+				<tr>
+					<td>{$s.name}</td>
+					<td>{$s.created_at|date_format:'%Y-%m-%d %H:%M:%S'}</td>
+				</tr>
+				{/foreach}
+			</tbody>
+		</table>
+		<a class="plus" href="javascript:add()">
+            <span class="glyphicon glyphicon-plus"></span>
+        </a>
+        <button class="btn btn-success" onclick="javascript:save()">保存</button>
+	</div>
+	{include file="Application/Home/View/Public/modal.html"}
+</body>
+<script>
+	function add()
+	{
+		var myDate=new Date();
+		var tr = $("<tr></tr>");
+		tr.append(
+			$("<td></td>").append(
+                $("<input />",{
+                    name: 'name',
+                    type: 'text',
+                    class: 'form-control',
+                })
+            ),
+            $("<td></td>").append(
+            	$("<input />",{
+                    type: 'text',
+                    class: 'form-control',
+                    disabled: true
+                })
+            )
+        )
+        tr.appendTo("#shop_table");
+	}
+	function save()
+	{
+		var name = [];
+		$("input[name='name']").each(function(){
+			name.push($(this).val());
+		});
+		$.ajax ({
+            url : '/index.php/Home/Shop/add',
+            type : "post",
+            dataType : "json",
+            data : { 'shop' : name },
+            success : function(result) {
+                var res = '';
+                if(result.error){
+                    res = '添加失败';
+                }else{
+                    var content = result.content;
+                    res = '添加成功';
+                }
+                $('#MODAL_CONTENT').html(res);
+                $('#MODAL').modal();
+            }
+        });  
+	}
+</script>

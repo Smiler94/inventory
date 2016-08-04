@@ -11,10 +11,11 @@
 			</div>
 			<div class="form-group">
 				<label class="control-label" for="shop">选择店铺:</label>
-				<select class="form-control" name="goods_name" id="goods_name" style="width:160px">
+				<select class="form-control" name="shop" style="width:160px">
 					<option value=""></option>
-					<option value="">店铺1</option>
-					<option value="">店铺2</option>
+					{foreach from=$shop item=s}
+					<option value="{$s.id}">{$s.name}</option>
+					{/foreach}
 				</select>
 			</div>
 			<input type="submit" class="btn btn-success" value="查看出库详情" />

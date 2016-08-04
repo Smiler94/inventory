@@ -5,10 +5,11 @@
 		<table class="table table-striped list-table inventory">
 			<thead>
 				<tr>
-					<td width="12.5%">商品款式</td>
-					<td width="12.5%">库存数量</td>
+					<td width="10%">商品款式</td>
+					<td width="10%">库存数量</td>
 					<td width="12.5%">库存警报数量</td>
 					<td width="12.5%">库存成本金额(￥)</td>
+                    <td width="10%">选择商店</td>
 					<td width="12.5%">出库</td>
 					<td width="12.5%">库存修正</td>
                     <td width="15%">入库时间</td>
@@ -32,6 +33,13 @@
 					<td>
                         {$i.cost}
                         <input type="hidden" name="cost" value="{$i.cost}"/>
+                    </td>
+                    <td>
+                        <select name="shop" class="form-control">
+                            {foreach from=$shop item=s}
+                            <option value="{$s.id}">{$s.name}</option>
+                            {/foreach}
+                        </select>
                     </td>
 					<td>
                         <input class="form-control" name="out" type="number"/>                
@@ -65,6 +73,7 @@
         'stock',
         'warn_num',
         'cost',
+        'shop',
         'out',
         'check',
         'id'
@@ -102,7 +111,7 @@
             if(f == 'style'){
                 proper.type = 'text';
                 proper.list = 'styles';
-            }else if(f == 'out' || f == 'check'){
+            }else if(f == 'out' || f == 'check' || f == 'shop'){
                 proper.disabled = true;
             }
             tr.append(
@@ -139,11 +148,19 @@
         field.push('id');
         for(var i in field){
             eval("var "+ field[i] + '= []' );
-            $("input[name='"+field[i]+"']").each(
-                function(){
-                    eval(field[i]+'.push($(this).val())');
-                }
-            );
+            if(field[i] == 'shop'){               
+                $("select[name='"+field[i]+"'] option:selected").each(
+                    function(){
+                        eval(field[i]+'.push($(this).val())');
+                    }
+                );
+            }else{
+                $("input[name='"+field[i]+"']").each(
+                    function(){
+                        eval(field[i]+'.push($(this).val())');
+                    }
+                );
+            }
         }
         var inventory = new Array();
         for(var i in style){
@@ -153,6 +170,7 @@
             }
             inventory.push(a);
         }
+
         $.ajax ({
             url : '/index.php/Home/Inventory/inventoryUpdate',
             type : "post",

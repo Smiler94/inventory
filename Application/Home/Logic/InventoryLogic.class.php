@@ -91,6 +91,8 @@ class InventoryLogic extends BaseLogic
 	    	unset($val['out']);
 	    	$data[$key]['check'] = $val['check'];
 	    	unset($val['check']);
+	    	$data[$key]['shop'] = $val['shop'];
+	    	unset($val['shop']);
 	    	$val['goods_id'] = $goods_id;
 	    	$data[$key]['inventory'] = $val;
 	    }
@@ -113,6 +115,7 @@ class InventoryLogic extends BaseLogic
 	    		D('inventory')->update($val['inventory']);
 	    		$bill = array(
 	    			'inventory_id' => $val['inventory']['id'],
+	    			'shop_id' => $val['shop'],
 	    			'num' => $val['out']
 	    		);
 	    		D('Bill')->update($bill);

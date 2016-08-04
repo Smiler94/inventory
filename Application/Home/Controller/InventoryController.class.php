@@ -21,6 +21,7 @@ class InventoryController extends PublicController
         if($res['success']){
             $this->assign('goods',$res['content']);
             $this->assign('title','库存详情');
+            $this->assign('shop',D('shop')->info());
             $this->display('inventory'); 
         }else{
             $url = '/index.php/Home/Goods/goodsList';
@@ -55,7 +56,7 @@ class InventoryController extends PublicController
     {
         $goods_id = I('request.goods_id');
         $inventory = I('request.inventory');
-
+        
         $res = D('Inventory','Logic')->updateInventory($goods_id,$inventory);
         if($res['success']){
             make_json_result($res['content']);
